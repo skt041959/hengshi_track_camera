@@ -4,6 +4,7 @@
 *.log
 *.tar.gz
 *.pyc
+*.so*
 
 main.elf
 main.bin
