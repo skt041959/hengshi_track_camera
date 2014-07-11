@@ -13,7 +13,7 @@ C_COMPILE_OPTIONS= -x c $(DEBUGFLAGS) -fhosted -Wall -Wno-parentheses -Wno-missi
 		   	-Wno-unknown-pragmas -Wno-cast-qual -Wno-unused-function -Wno-unused-label
 
 
-LCLLIBS=  -lpthread -lstdc++ -L/usr/X11R6/lib -lXext -lX11 -L /usr/local/lib -L ./lib -lSapera++ -lSaperaLT
+LCLLIBS=  -lpthread -lstdc++ -L/usr/X11R6/lib -lXext -lX11 -L /usr/local/lib -lSapera++ -lSaperaLT
 OPENCV_LIBS = -lopencv_core -lopencv_features2d -lopencv_highgui -lopencv_imgproc -lopencv_legacy -lopencv_nonfree -lopencv_objdetect -lopencv_photo -lopencv_video -lopencv_videostab
 #OPENCV_LIBS = -lopencv_calib3d -lopencv_contrib -lopencv_core -lopencv_features2d -lopencv_flann -lopencv_gpu -lopencv_highgui -lopencv_imgproc -lopencv_legacy -lopencv_ml -lopencv_nonfree -lopencv_objdetect -lopencv_ocl -lopencv_photo -lopencv_stitching -lopencv_superres -lopencv_ts -lopencv_video -lopencv_videostab
 OPENCV_EXTRA_LIBS = /usr/lib64/libGL.so /usr/lib64/libGLU.so -lrt -lpthread -lm -ldl
